@@ -1,0 +1,61 @@
+:root{
+--negro:#000;
+--blanco:#fff;
+--rosado:#f5a3c7;
+--gris:#777;
+}
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Arial', sans-serif;
+}
+
+
+body{
+background:var(--blanco);
+color:var(--negro);
+}
+
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+
+.btn{
+display:inline-block;
+padding:14px 22px;
+border:2px solid var(--negro);
+background:var(--negro);
+color:var(--blanco);
+font-weight:600;
+transition:.3s;
+}
+
+
+.btn:hover{
+background:var(--rosado);
+border-color:var(--rosado);
+color:#000;
+}
+
+
+.precio{
+margin-top:8px;
+}
+
+
+.precio .antes{
+text-decoration:line-through;
+color:var(--gris);
+margin-right:8px;
+}
+
+
+.precio .ahora{
+font-weight:700;
+}
